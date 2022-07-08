@@ -65,7 +65,7 @@ html {
 
 .header .navbar a{
     font-size: 1.7rem;
-    margin: 0 1 rem;
+    margin: 0.9rem;
     color: var(--negro)
 }
 
@@ -78,6 +78,16 @@ html {
     cursor: pointer;
     display: none;
 }
+
+body {
+    height: 300rem;
+}
+
+.header.active{
+    box-shadow: var(--box-shadow);
+    padding: 2rem 9%;
+}
+
 /* .header .btn {
     margin-top: 0;
 } */
