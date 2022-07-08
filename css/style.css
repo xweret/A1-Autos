@@ -20,7 +20,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 69.5%;
     overflow-x: hidden;
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
@@ -64,7 +64,7 @@ html {
 }
 
 .header .navbar a{
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     margin: 0.9rem;
     color: var(--negro)
 }
@@ -88,9 +88,16 @@ body {
     padding: 2rem 9%;
 }
 
-/* .header .btn {
+.header .btn {
     margin-top: 0;
-} */
+}
+.header #login-btn i{
+    font-size: 2.5rem;
+    color: var(--color-contraste);
+    cursor: pointer;
+    display: none;
+}
+
 /* media queries  */
 
 @media (max-width:991px) {
@@ -108,6 +115,14 @@ body {
     #menu-btn.fa-times{
         transform: rotate(180deg);
     }
+    .header #login-btn i{
+        display: block;
+    }
+
+    .header #login-btn .btn{
+        display: none;
+    }
+
     .header .navbar{
         position: absolute;
         top:99%; left:0; right:0;

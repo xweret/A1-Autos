@@ -1,3 +1,4 @@
+//funcion que agrega la clase active
 let menu = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.navbar');
 
