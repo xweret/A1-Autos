@@ -44,7 +44,7 @@ html {
 .header {
     position: fixed;
     top:0; left:0; right: 0;
-    z-index: 999;
+    z-index: 998;
     background-color: #fff;
     align-items: center;
     display: flex;
@@ -77,60 +77,44 @@ html {
     color: var(--color-contraste);
     cursor: pointer;
     display: none;
-
-
 }
-
-
-
-
 /* .header .btn {
     margin-top: 0;
 } */
-
 /* media queries  */
 
 @media (max-width:991px) {
     html {
         font-size: 55%;
     }
-
     .header {
         padding: 2rem;
     }
-
 }
-
 @media (max-width:768px) {
-
     #menu-btn {
         display: block;
     }
     #menu-btn.fa-times{
         transform: rotate(180deg);
     }
-
     .header .navbar{
         position: absolute;
-        top: 99%; left: 0; right: 0;
-        background-color: #fff;
+        top:99%; left:0; right:0;
+        background: #fff;
         border-top: var(--border);
-        clip-path:polygon(0 0, 100% 0, 100% 0, 0 0);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
 
-    .header .navbar .active {
-        clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    .header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
-
     .header .navbar a{
         display: block;
         margin: 2rem;
         font-size: 2rem;
     }
-
 }
-
-
 @media (max-width:450px) {
     html {
         font-size: 50%;
