@@ -67,8 +67,10 @@ document.querySelector('.home').onmouseleave = () =>{
     slidesPerView: 1,
     spaceBetween: 20,
     loop: true,
+    grapCursor:true,
+    centeredSlides:true,
     autoplay: {
-        delay: 9500,
+        delay: 5800,
         disableOnInteraction: false,
       },
     pagination: {
