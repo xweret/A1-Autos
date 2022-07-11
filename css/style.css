@@ -206,6 +206,66 @@ body {
 
 /* final estilo de la home */
 
+/* estilo de los iconos */
+
+.contenedor-iconos {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    background: #eee;
+}
+
+.contenedor-iconos .iconos {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+}
+
+.contenedor-iconos .iconos i {
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    background: #eee;
+    color: var(--negro);
+    text-align: center;
+}
+
+.contenedor-iconos .iconos .content h3{
+    color: var(--amarillo);
+    font-size: 2.5rem;
+}
+
+.contenedor-iconos .iconos .content p{
+    color: var(--color-contraste);
+    font-size: 1.5rem;
+}
+
+.contenedor-iconos .iconos:hover{
+    background-color: var(--negro);
+}
+
+.contenedor-iconos .iconos:hover i{
+    background: var(--amarillo);
+}
+
+.contenedor-iconos .iconos:hover .content h3{
+    color: #fff;
+}
+
+.contenedor-iconos .iconos:hover .content p{
+    color: #eee;
+}
+
+
+
 /* media queries  */
 
 @media (max-width:991px) {
@@ -221,7 +281,7 @@ body {
     }
 
     section{
-        padding: 2rem 9%;
+        padding: 2rem;
     }
 
 }
