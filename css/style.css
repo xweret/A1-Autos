@@ -25,6 +25,12 @@ html {
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
 }
+
+section {
+    padding:2rem 9%;
+
+}
+
 .btn {
     display: inline-block;
     margin-top: 1rem;
@@ -86,6 +92,7 @@ body {
 .header.active{
     box-shadow: var(--box-shadow);
     padding: 2rem 9%;
+    
 }
 
 .header .btn {
@@ -190,7 +197,11 @@ body {
     font-size: 7.5vw;
     text-transform: uppercase;
     color: var(--negro);
-    
+}
+
+.home img{
+    width: 100%;
+    margin: 1rem 0;
 }
 
 /* final estilo de la home */
@@ -207,6 +218,10 @@ body {
 
     .header.active{
         padding: 2rem;
+    }
+
+    section{
+        padding: 2rem 9%;
     }
 
 }
