@@ -457,9 +457,17 @@ body {
 .preciob {
     font-size: 2.5rem;
 }
-
-
 /* termina el estilo de autos destacados */
+
+/* estilo del form al newsletter */
+
+.newsletter{
+    padding: 6rem 2rem;
+    text-align: center;
+    background: url(/image/bgparaelform.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 /* media queries  */
 
