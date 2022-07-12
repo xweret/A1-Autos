@@ -5,7 +5,7 @@
     --amarillo-claro: #ffee80;
     --negro: #130f40;
     --color-contraste: #666; 
-    --border: .1rem solid rgba(0,0,0,1);
+    --border: .1rem solid rgba(0,0,0,.1);
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
 
@@ -359,6 +359,107 @@ body {
 }
 
 /* termina el estilo del slider de vehiculos populares */
+
+/* comienza el estilo de los servicios */
+
+.servicios .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.servicios .box-container .box {
+    text-align: center;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+}
+
+.servicios .box-container .box i{
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    font-size: 2.5rem;
+    color: var(--negro);
+    background: var(--amarillo);
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.servicios .box-container .box h3 {
+    color: var(--negro);
+    font-size: 2.2rem;
+}
+
+.servicios .box-container .box p{
+    color: var(--color-contraste);
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.servicios .box-container .box:hover{
+    background: var(--negro);
+}
+
+.servicios .box-container .box:hover h3{
+    color: #fff;
+}
+
+.servicios .box-container .box:hover p{
+    color: #eee;
+}
+
+/* estilo de la seccion autos destacados */
+
+.destacados .destacados-slider{
+    padding: 1rem;
+    padding-bottom: 4rem;   
+}
+
+.destacados .destacados-slider .box{
+    text-align: center;
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    border-radius: .5rem;
+}
+
+.destacados .destacados-slider .box img{
+    width: 100%;
+    padding: 2rem;
+}
+
+.destacados .destacados-slider .box:hover img{
+    transform: scale(.9);
+
+}
+
+.destacados .destacados-slider .box h3{
+    font-size: 2.2rem;
+    color: var(--negro);
+}
+
+.destacados .destacados-slider .box .estrellas{
+    padding: 1rem 0;
+}
+
+.destacados .destacados-slider .box .estrellas i{
+    font-size: 1.7rem;
+    color: var(--amarillo);
+}
+
+.destacados .destacados-slider .box .estrellas .preciob {
+    color: var(--negro);
+}
+
+.preciob {
+    font-size: 2.5rem;
+}
+
+
+/* termina el estilo de autos destacados */
 
 /* media queries  */
 

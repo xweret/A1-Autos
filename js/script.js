@@ -61,7 +61,7 @@ document.querySelector('.home').onmouseleave = () =>{
 
 };
 
-// js del swiper 
+// js del swiper 1 
 
   var swiper = new Swiper(".vehiculos-slider", {
     slidesPerView: 1,
@@ -90,6 +90,35 @@ document.querySelector('.home').onmouseleave = () =>{
     },
   });
 
+
+  // js del swiper destacados (son 2 swipers)
+
+  var swiper = new Swiper(".destacados-slider", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    grapCursor:true,
+    centeredSlides:true,
+    autoplay: {
+        delay: 5800,
+        disableOnInteraction: false,
+      },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      991: {
+        slidesPerView: 3,
+      },
+    },
+  });
 
 
 
