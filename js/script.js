@@ -120,6 +120,33 @@ document.querySelector('.home').onmouseleave = () =>{
     },
   });
 
+//js del swiper de reviews 
 
+  var swiper = new Swiper(".reviews-slider", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    grapCursor:true,
+    centeredSlides:true,
+    autoplay: {
+        delay: 3800,
+        disableOnInteraction: false,
+      },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      991: {
+        slidesPerView: 3,
+      },
+    },
+  });
 
 

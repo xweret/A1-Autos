@@ -491,14 +491,72 @@ body {
 }
 
 .newsletter form input[type="email"] {
-   height: 100%;
-   width: 100%;
-   font-size: 1.6rem;
-   color: var(--negro);
-   text-transform: none;
-   padding: 0 2rem;
+    height: 100%;
+    width: 100%;
+    font-size: 1.6rem;
+    color: var(--negro);
+    text-transform: none;
+    padding: 0 2rem;
 }
 
+.newsletter form input[type="submit"] {
+    height: 100%;
+    width: 17rem;
+    font-size: 1.7rem;
+    color: var(--negro);
+    background: yellow;
+    cursor: pointer;
+}
+
+.newsletter form input[type="submit"]:hover{
+    background: var(--amarillo);
+}
+
+/* estilo de las reviews */
+
+.reviews .reviews-slider{
+    padding-bottom: 3rem;
+
+}
+
+.reviews .reviews-slider .box{
+    padding: 2rem 1.5rem;
+    margin: 2rem 0;
+    text-align: center;
+    opacity: .4;
+    transform: scale(.9);
+}
+
+.reviews .reviews-slider .swiper-slide-active{
+    opacity: 1;
+    transform: scale(1);
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+}
+
+.reviews .reviews-slider .box img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.reviews .reviews-slider .box .contenido p{
+    font-size: 1.5rem;
+    color: var(--color-contraste);
+    padding: 1rem 0;
+}
+
+.reviews .reviews-slider .box .contenido h3{
+    font-size: 2.2rem;
+    color: var(--negro);
+    padding-bottom: .5rem;
+}
+
+.reviews .reviews-slider .box .contenido .estrellas i{
+    font-size: 1.7rem;
+    color: var(--amarillo);
+}
 
 /* media queries  */
 
