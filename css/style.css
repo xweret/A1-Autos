@@ -469,6 +469,37 @@ body {
     background-size: cover;
 }
 
+.newsletter h3{
+    color: var(--negro);
+    font-size: 3rem;
+}
+
+.newsletter p{
+    color: var(--color-contraste);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.newsletter form{
+    margin: 1rem auto;
+    max-width: 60rem;
+    height: 5rem;
+    display: flex;
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+    border-radius: 5rem;
+}
+
+.newsletter form input[type="email"] {
+   height: 100%;
+   width: 100%;
+   font-size: 1.6rem;
+   color: var(--negro);
+   text-transform: none;
+   padding: 0 2rem;
+}
+
+
 /* media queries  */
 
 @media (max-width:991px) {
