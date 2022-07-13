@@ -11,7 +11,7 @@ muy grande para la compra y venta de autos. He de ahi que, para este desafio, in
 
 Sobre las herramientas usadas: 
 
-Use HTML CSS y Js puros junto con algunas herramientas; para los "swipers" use la pagina  https://swiperjs.com/ que me encanto por su utilidad a la hora de hacer carrouseles responsives y que, para mi gusto, se ven realmente bien.
+Use HTML CSS y Js puros junto con algunas herramientas; para los "swipers" use la pagina  https://swiperjs.com/ que me encanto por su utilidad a la hora de hacer carrouseles responsives y que, para mi gusto, se ven realmente bien ademas, son muy customizables.
 Para iconos y otras cosas relacionadas al estilo, use https://fontawesome.com/ ambos, conectados por CDN. El favicon lo diseñe con ilustrator.
 
 
