@@ -464,7 +464,7 @@ body {
 .newsletter{
     padding: 6rem 2rem;
     text-align: center;
-    background: url(/image/bgparaelform.png) no-repeat;
+    background: url(.../image/bgparaelform.png) no-repeat;
     background-position: center;
     background-size: cover;
 }
