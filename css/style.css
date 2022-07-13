@@ -558,6 +558,105 @@ body {
     color: var(--amarillo);
 }
 
+/* termina el estilo de las reviews */
+
+/* comienza el estilo de la seccion de contacto */
+
+.contacto .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+} 
+
+.contacto .row .map{
+    flex: 1 1 42rem;
+    width: 100%;
+    padding: 2rem;
+    border: var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+}
+.contacto .row form{
+    flex: 1 1 42rem;
+    padding: 2rem;
+    border: var(--border);
+    border-radius: .5rem;
+    box-sizing: var(--box-shadow);
+    text-align: center;
+}
+
+.contacto .row form h3{
+    font-size: 3rem;
+    color: var(--negro);
+}
+
+.contacto .row form .box{
+    margin: .7rem 0;
+    width: 100%;
+    border: var(--border);
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--negro);
+    text-transform: none;
+}
+
+.contacto .row form textarea{
+    height: 15rem;
+    resize: none;
+}
+
+/* termina el estilo de la seccion de contacto */
+
+/* estilo del footer */
+
+.footer {
+    background: var(--amarillo-claro);
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3{
+    color: var(--negro);
+    font-size: 2.2rem;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a{
+    color: var(--color-contraste);
+    font-size: 1.4rem;
+    display: block;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a i{
+    padding-right: .5rem;
+    color: var(--negro);
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+
+.footer .creditos{
+    text-align: center;
+    border-top: var(--border);
+    padding: 1rem;
+    padding-top: 2.5rem;
+    margin-top: 2rem;
+    font-size: 1.7rem;
+}
+.footer .creditos a:hover{
+    padding: 1.9rem;
+}
+
+
+
+/* termina el estilo del footer */
+
 /* media queries  */
 
 @media (max-width:991px) {
